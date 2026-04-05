@@ -244,7 +244,7 @@ tailwind.config = {
 // ║                (하드코딩하지 마세요!)                          ║
 // ╚═══════════════════════════════════════════════════════════════╝
 let API_KEY = ''; // ← 여기는 항상 비워두고, UI에서 입력하세요.
-const GEMINI_MODEL = 'gemini-2.0-flash'; // gemini-1.5-flash 로도 교체 가능
+const GEMINI_MODEL = 'gemini-2.5-flash'; // 무료 티어에서 가장 안정적으로 동작
 const GEMINI_URL = (key) => `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${key}`;
 
 // ╔═══════════════════════════════════════════════════════════════╗
